@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    image: sidnikhin/symfony-app:app
+
+  database:
+    image: postgres:11-alpine
